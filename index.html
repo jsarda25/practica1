@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Viajes</title>
+
+<style type="text/css">
+/*todo esto debería ir en un archivo aparte*/
+html {
+	background-color: aqua;
+}
+
+.caja1 {
+	background-color: navy;
+	padding: 50px;
+	color: black;
+	width: 10%;
+	float: left;
+}
+
+.caja2 {
+	background-color: navy;
+	padding: 50px;
+	color: black;
+	width: 10%;
+	float: left;
+}
+
+.caja3 {
+	background-color: navy;
+	padding: 50px;
+	color: black;
+	width: 10%;
+	float: left;
+}
+
+.caja4 {
+	background-color: navy;
+	padding: 50px;
+	color: black;
+	width: 10%;
+	float: left;
+}
+
+.destacados {
+a : HOVER{
+}
+
+}
+
+ul {
+	background-color: navy;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	float: left;
+	/* 	width: 20%; */
+	/* 	font-size: 30; */
+	/* 	font-family: sans-serif; */
+}
+
+li a {
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+li a:HOVER {
+	background-color: aqua;
+}
+</style>
+
+</head>
+<body>
+
+	<ul>
+
+		<li><a href="index.html"> <img src="logo.png"
+				alt="logo viajes" style="width: 30px; height: 30px; border: 0;">
+		</a></li>
+		<li><a href="familia.html">Familia</a></li>
+		<li><a href="escapadas.html">Escapadas</a></li>
+		<li><a href="vacaciones.html">Vacaciones</a></li>
+		<li><a href="ofertas.html">Ofertas</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+
+	</ul>
+	<form>
+		<table>
+			<tr>
+				<td>ORIGEN:</td>
+				<td><input type="text" name="campoNombre" /></td>
+				<td>DESTINO:</td>
+				<td><input type="text" name="campoemail" /></td>
+				<td style="float: right;">IDA</td>
+				<td style="float: right;">VUELTA</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="BUSCAR" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<div align="center">
+		<iframe width="620" height="300"
+			src="https://www.youtube.com/watch?v=R5-YBR12rH4"> Cambia tu
+			forma de ver los viajes </iframe>
+	</div>
+
+	<div class="destacados" align="center">
+
+
+
+
+		<div class="caja1">
+			<a href="familia.html">viaje destacado familia</a>
+		</div>
+		<div class="caja2">
+			<a href="escapadas.html">viaje destacado escapadas</a>
+		</div>
+		<div class="caja3">
+			<a href="vacaciones.html">viaje destacado vacaciones</a>
+		</div>
+		<div class="caja4">
+			<a href="ofertas.html">viaje destacado ofertas</a>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
